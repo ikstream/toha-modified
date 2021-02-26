@@ -12,6 +12,28 @@
     {{ partial "navigators/navbar-2.html" . }}
 {{ end }}
 
+{{ define "sidebar" }}
+  {{ $blogHome:="/" }}
+  {{ if site.IsMultiLingual }}
+    {{ $blogHome = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
+  {{ end }}
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="{{ .Type | relLangURL }}" data-filter="all">{{ i18n .Type }}</a></li>
+            <div class="subtree">
+                {{ partial "navigators/sidebar.html" (dict "menus" site.Menus.sidebar "ctx" .) }}
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+
 {{ define "content" }}
 <section class="content-section" id="content-section">
   <div class="content">
