@@ -71,5 +71,41 @@ other = "Полученный кредит"
 [extracurricular_activities]
 other = "Внеклассные занятия"
 
-[see_more]
+[show_more]
 other = "Узнать больше"
+
+[show_less]
+other = "Показывай меньше"
+
+# [responsibilities]
+# other = "Responsibilities:"
+
+# [present]
+# other = "Present"
+
+# [comments_javascript]
+# other = "Please enable JavaScript to view the"
+
+# [comments_by]
+# other = "comments powered by"
+
+# [read]
+# other = "Read"
+
+# [project_star]
+# other = "Star"
+
+# [project_details]
+# other = "Details"
+
+# [err_404]
+# other = "The page you are looking for is not there yet."
+
+[more]
+other = "Более"
+
+[view_certificate]
+other = "Просмотреть сертификат"
+
+[notes]
+other = "Ноты"

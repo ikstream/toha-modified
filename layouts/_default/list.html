@@ -10,7 +10,7 @@
 {{ define "sidebar" }}
   {{ $blogHome:="/" }}
   {{ if site.IsMultiLingual }}
-    {{ $blogHome = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
+    {{ $homePage = (path.Join (cond ( eq .Language.Lang "en") "" .Language.Lang) .Type) }}
   {{ end }}
 
   <section class="sidebar-section" id="sidebar-section">
@@ -20,7 +20,7 @@
           <ul class="tree" id="tree">
             <li id="list-heading"><a href="{{ .Type | relLangURL }}" data-filter="all">{{ i18n .Type }}</a></li>
             <div class="subtree">
-                {{ partial "navigators/sidebar.html" (dict "menus" site.Menus.sidebar "ctx" .) }}
+                {{ partial "navigators/sidebar.html" (dict "menuName" "sidebar" "menuItems" site.Menus.sidebar "ctx" .) }}
             </div>
           </ul>
         </div>
@@ -35,7 +35,11 @@
     <div class="container-fluid post-card-holder" id="post-card-holder">
       {{ $paginator := .Paginate .RegularPagesRecursive 12 }}
       {{ range $paginator.Pages }}
-        {{ partial "cards/post.html" . }}
+        {{ if .Layout }}
+          {{/* ignore the search.md file*/}}
+        {{ else }}
+          {{ partial "cards/post.html" . }}
+        {{ end }}
       {{ end }}
     </div>
     <div class="paginator">

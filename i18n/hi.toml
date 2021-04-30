@@ -71,5 +71,41 @@ other = "श्रेय प्राप्त किया"
 [extracurricular_activities]
 other = "अतिरिक्त पाठयक्रम गतिविधियों"
 
-[see_more]
+[show_more]
 other = "और देखें"
+
+[show_less]
+other = "कम दिखाएं"
+
+# [responsibilities]
+# other = "Responsibilities:"
+
+# [present]
+# other = "Present"
+
+# [comments_javascript]
+# other = "Please enable JavaScript to view the"
+
+# [comments_by]
+# other = "comments powered by"
+
+# [read]
+# other = "Read"
+
+# [project_star]
+# other = "Star"
+
+# [project_details]
+# other = "Details"
+
+# [err_404]
+# other = "The page you are looking for is not there yet."
+
+[more]
+other = "अधिक"
+
+[view_certificate]
+other = "प्रमाणपत्र देखें"
+
+[notes]
+other = "टिप्पणियाँ"

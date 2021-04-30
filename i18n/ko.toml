@@ -71,5 +71,41 @@ other = "획득한 수익"
 [extracurricular_activities]
 other = "기타 활동"
 
-[see_more]
+[show_more]
 other = "더보기"
+
+[show_less]
+other = "간단히보기"
+
+# [responsibilities]
+# other = "Responsibilities:"
+
+# [present]
+# other = "Present"
+
+# [comments_javascript]
+# other = "Please enable JavaScript to view the"
+
+# [comments_by]
+# other = "comments powered by"
+
+# [read]
+# other = "Read"
+
+# [project_star]
+# other = "Star"
+
+# [project_details]
+# other = "Details"
+
+# [err_404]
+# other = "The page you are looking for is not there yet."
+
+[more]
+other = "더"
+
+[view_certificate]
+other = "인증서보기"
+
+[notes]
+other = "메모"

@@ -71,5 +71,41 @@ other = "Krediet verkregen"
 [extracurricular_activities]
 other = "Buitenschoolse activiteiten"
 
-[see_more]
+[show_more]
 other = "Bekijk meer"
+
+[show_less]
+other = "Laat minder zien"
+
+# [responsibilities]
+# other = "Responsibilities:"
+
+# [present]
+# other = "Present"
+
+# [comments_javascript]
+# other = "Please enable JavaScript to view the"
+
+# [comments_by]
+# other = "comments powered by"
+
+# [read]
+# other = "Read"
+
+# [project_star]
+# other = "Star"
+
+# [project_details]
+# other = "Details"
+
+# [err_404]
+# other = "The page you are looking for is not there yet."
+
+[more]
+other = "Meer"
+
+[view_certificate]
+other = "Bekijk certificaat"
+
+[notes]
+other = "Opmerkingen"

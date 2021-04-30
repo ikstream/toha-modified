@@ -68,5 +68,41 @@ other = "অর্জিত ক্রেডিট"
 [extracurricular_activities]
 other = "পাঠক্রম বহির্ভূত কার্যক্রম"
 
-[see_more]
-other = "আরো দেখুন"
+[show_more]
+other = "আরো দেখান"
+
+[show_less]
+other = "কম দেখান"
+
+[responsibilities]
+other = "দায়িত্বসমুহ:"
+
+[present]
+other = "বর্তমান"
+
+# [comments_javascript]
+# other = "Please enable JavaScript to view the"
+
+# [comments_by]
+# other = "comments powered by"
+
+# [read]
+# other = "Read"
+
+# [project_star]
+# other = "Star"
+
+# [project_details]
+# other = "Details"
+
+# [err_404]
+# other = "The page you are looking for is not there yet."
+
+[more]
+other = "আরো"
+
+[view_certificate]
+other = "সার্টিফিকেট দেখুন"
+
+[notes]
+other = "নোট সমূহ"
